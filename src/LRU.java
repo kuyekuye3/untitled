@@ -57,6 +57,7 @@ public class LRU{
                 Node removed=removeTail();
                 cache.remove(removed.key);
             }
+            //修改代码
         }
     }
     //将节点添加到头部
